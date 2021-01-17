@@ -17,7 +17,7 @@ class Config(object):
     OWNER_USERNAME = "username"
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = 'postgres://tg_bot:tg12345@103.212.120.184:5432/tg_bot'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
     GBAN_LOGS = -1234567890 #Channel ID here with -
     LOAD = []
