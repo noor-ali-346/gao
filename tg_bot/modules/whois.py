@@ -44,7 +44,7 @@ def whois(bot: Bot, update: Update, args: List[str]):
         return
     
     text = (f"<b>User Information:</b>\n"
-            f"<b>UiD]-</b> <code>{user.id}</code>\n"
+            f"<b>U🅟🅐iD]-</b> <code>{user.id}</code>\n"
             f"🅟🅐Name: {html.escape(user.first_name)}")
 
     if user.last_name:
@@ -95,7 +95,7 @@ def whois(bot: Bot, update: Update, args: List[str]):
 
 
     text +="\n"
-    text += "\nCAS banned: "
+    text += "\n🅟🅐CAS banned: "
     result = cas.banchecker(user.id)
     text += str(result)
     for mod in USER_INFO:
